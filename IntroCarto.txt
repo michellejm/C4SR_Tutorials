@@ -1,6 +1,6 @@
-# Carto Tutorial - Getting Started on Carto
+#Carto Tutorial - Getting Started on Carto
 
-## Part I - Account Set Up
+##Part I - Account Set Up
 
 You will need to set up a (free) account on Carto at www.carto.com. You only need an email and password, the questions are optional. If you have GitHub, I encourage you to sign up using your GitHub account so that any files you store (or update) on GitHub can be easily imported into your map.
 
@@ -8,7 +8,7 @@ Once you set up an account, you will be taken to the page to Add Datasets. We ar
 
 This dataset comes from the [American Community Survey](www.factfinder.census.gov). For more on finding datasets, visit ANOTHER GITPAGE. 
 
-## Part II - Uploading Data
+##Part II - Uploading Data
 
 The data we are using for this tutorial is pre-cleaned. We will have another session on finding and cleaning data.
 
@@ -46,7 +46,7 @@ Now we are going to align the language information to the census tracts.
 	g. A new dataset will appear. I'm going to rename mine, "languages_by_censustract_nyc"
 	h. Carto will probably suggest some "interesting maps" ignore these.
 	
-## Part III - Mapping data
+##Part III - Mapping data
 In this section, we will look at the data in a map form. At this point, our questions are exploratory.
 
 1. Make the data into a map
