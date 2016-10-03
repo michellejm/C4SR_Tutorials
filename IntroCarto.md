@@ -47,6 +47,7 @@ Now we are going to align the language information to the census tracts.
 	
 ##Part III - Mapping data
 In this section, we will look at the data in a map form. At this point, our questions are exploratory.
+
 1. Make the data into a map
 	1. In the upper right hand corner, click on 'Visualize'
 	2. Carto will prompt you to make a map. Accept this.
