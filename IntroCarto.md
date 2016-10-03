@@ -52,12 +52,14 @@ In this section, we will look at the data in a map form. At this point, our ques
 	1. In the upper right hand corner, click on 'Visualize'
 	2. Carto will prompt you to make a map. Accept this.
 	3. This changes your dataset from a spreadsheet with a spatial component into a map you can add layers to within the system.
+	
 2. Inspect the data
 	1. Click on the number '1' in the box on the right side of the screen. This is the first layer. 
 	2. If it isn't selected already, click on the little square with a paintbrush. This is the mapping 'wizard'. Eventually, you will create these maps manually, but for right now, let's just look at the built-in options.
 	3. Select Choropleth. Choropleth maps are good for showing differences in density. Our language data is perfectly suited to this.
 	4. Select any language. I'm going to choose Chinese.
 	5. Does this align with what you might expect for the city? Why or why not?
+	
 3. Add a Tooltip
 	1. Click on the 'infowindow' box directly below the 'wizard' box.
 	2. There are two options here - 'click' and 'hover' - pick your preference.
@@ -65,6 +67,7 @@ In this section, we will look at the data in a map form. At this point, our ques
 	4. Go back to the map and either click or hover over one of the census tracts, two numbers should appear. 
 		1. The decimal represents the percentage of speakers
 		2. The grey number represents the row where that datum appears in the table (only visible to you)
+		
 4. Formatting the Tooltip
 *We want the tooltip to display as a percentage, not as a decimal. We can do this one of two ways. First, we could reformat the data in Excel, to natively be a percentage. Second, we can do it using SQL commands. I am going to chose the SQL commands because it gives me more control over the data.*
 	1. Click on the icon that says 'SQL' (directly above the wizard)
@@ -74,6 +77,7 @@ In this section, we will look at the data in a map form. At this point, our ques
 		2. Remove the original command and replace it with: **SELECT \*, to_char(chinese, '99V99%') AS chinese_percent FROM languages_by_census_tracts_nyc** *This says select everything from the dataset, languages..., and change the characters in the chinese column to a percent formal and call that transformation chinese_percent
 		3. Run this query by clicking 'Apply Query'
 	4. Now return to the tooltip and select the new variable, chinese_percent (and deselect the old chinese).
+	
 5. Making layers
 	1. In the last step, we make layer 1 for Chinese. Let's make another layer for Arabic.
 	2. Click on 'Add Layer', directly above the Chinese layer
@@ -83,6 +87,7 @@ In this section, we will look at the data in a map form. At this point, our ques
 	6. Add the tooltip (Step 3)
 	7. Be sure to rename the layer
 	8. Repeat for as many languages as you want
+	
 6. Customizing Views
 	1. Toggle the visibility of layers by selecting the layer and moving the slider button on the top right hand side of the title bar.
 	2. Add a layer selector to your map by changing the settings
