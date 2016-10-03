@@ -13,14 +13,15 @@ This dataset comes from the [American Community Survey](www.factfinder.census.go
 The data we are using for this tutorial is pre-cleaned. We will have another session on finding and cleaning data.
 
 1. Import shapefile of census tracts for New York State
-This file came from [the US Census](https://www.census.gov/geo/maps-data/data/cbf/cbf_tracts.html), though it is available in multiple locations, multiple ways
-	a. Go to SHAREFOLDER
-	b. Find "gz_2010_36.csv" 
-	c. Return to Carto >> Add Dataset
-	d. Upload the file here
-	e. Carto will show you the map view. It should look like New York State divided into census tracts.
-	f. Return to Data View (with the slider at the top)
-	g. For clarity, I'm going to edit the metadata and rename my dataset "nyc_censustracts"
+This file came from [the US Census](https://www.census.gov/geo/maps-data/data/cbf/cbf_tracts.html), though it is available in multiple locations, multiple ways:
+
+	1. Go to SHAREFOLDER
+	2. Find "gz_2010_36.csv" 
+	3. Return to Carto >> Add Dataset
+	4. Upload the file here
+	5. Carto will show you the map view. It should look like New York State divided into census tracts.
+	6. Return to Data View (with the slider at the top)
+	7. For clarity, I'm going to edit the metadata and rename my dataset "nyc_censustracts"
 
 2. Add more data from a file
 
