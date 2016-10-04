@@ -10,7 +10,7 @@ To get started, we have to ask a few questions to identify the goals of the proj
 
 **1. Is the purpose of this project to represent data in a spatial way or analyze spatially-bound data?**
 
-Representing data in a spatial way means there is some information about the world that you want to associate with a place. This is often thought of as "dropping pins" or otherwise representing objects, events, or features on a map. For example, if you wanted to make a map of language neighborhoods in New York City, you would draw polygons over a maps of NYC to represent neighborhoods.
+Representing data in a spatial way means there is some information about the world that you want to associate with a place. This is often thought of as "dropping pins" or otherwise representing objects, events, or features on a map. For example, if you wanted to make a [map of language neighborhoods](https://michellejm.github.io/C4SR_Tutorials/) in New York City, you would draw polygons over a maps of NYC to represent neighborhoods.
 
 Analyzing spatially-bound data may not involve "mapping" at all. This could be analyzing datasets with respect to each other with or without ever plotting any points. For example, if you wanted to analyze the languages spoken near to the [subway stations](http://subwaylanguages.michelleajohnson.com/), you would find out where all the subway stations are located and draw circles or boundaries (buffers) around them and see how that intersects with census data. 
 
