@@ -1,6 +1,8 @@
 # When to use Carto versus Mapbox versus QGIS
 
-By the end of this tutorial you will be able to:
+The purpose of this tutorial is to give a general overview of tools and techniques we will be using throughout the course. While this tutorial is technologically very light, it presents a series of questions and discussion that you want to address before embarking on a new project.
+
+**By the end of this tutorial you will be able to:**
 
 1. Identify which mapping platform(s) you will use in your final project.
 2. Articulate the purpose and goal of your final project.
@@ -10,7 +12,7 @@ By the end of this tutorial you will be able to:
 
 Near the beginning of any project comes the question "what platform/program/language am I going to use to make this great thing?" When embarking on a mapping project (where "mapping" is broadly defined to be anything with a spatial component), there are five major platforms to use, Carto (formerly CartoDB), Mapbox, QGIS, ArcGIS, and Google Maps. 
 
-ArcGIS and Google Maps are not covered here. Without an institutional license, ArcGIS is prohibitively expensive (and it only runs on Windows computers). However, most of what I will say about QGIS applies to ArcGIS. Google Maps is not covered either because while Google Maps is a very easy tool to mark locations, users do not have control over what the final product looks like and how information is displayed. For academic and journalistic projects, controlling the visual representation of the.
+ArcGIS and Google Maps are not covered here. Without an institutional license, ArcGIS is prohibitively expensive (and it only runs on Windows). However, most of what I will say about QGIS applies to ArcGIS. Google Maps is not covered either because while Google Maps is a convenient tool to mark locations, users do not have control over the visual effects of the final project. 
 
 To get started, we have to ask a few questions to identify the goals of the project. 
 
